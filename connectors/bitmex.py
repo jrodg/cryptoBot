@@ -25,7 +25,7 @@ try:
   def mngcontracts():
 
     for contract in data:
-        contracts.append(contract['multiplier'])
+        contracts.append(contract['symbol'])
     return contracts
 
 except (ConnectionError, Timeout, TooManyRedirects) as e:
